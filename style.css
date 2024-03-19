@@ -82,11 +82,9 @@ body,*{
 }
 .ribbon {
     display: inline-block;
-    /* --r: 20px; /* control the cutout of the ribbon */
-    /* --s: 20px; size of the folded part */ 
     width: 6vw;
     height: 5vh;
-    line-height: 1.6; /* control the height */
+    line-height: 1.6;
     background-color: violet;
     
 }
@@ -125,6 +123,7 @@ body,*{
     }
 
     .profile-container{
+        font-size: .6rem;
         width:60px;
         height: 90px;
         display: flex;
@@ -132,12 +131,17 @@ body,*{
         justify-content: center;
         align-items: center;
     }
+    .v-text{
+        font-size: 0.5rem;
+        color: violet;
+        font-style: italic;
+        text-align: center;
+    }
     .lm-team-profiles,.development-team-profiles{
         padding: 2% 6%;
     }
     ribbon {
         display: inline-block;
-       
         width: 10px;
         height: 6px;
         line-height: 1.6; /* control the height */
